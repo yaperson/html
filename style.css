@@ -35,9 +35,9 @@ html {
   }
 
   h1:hover{
-    transition: 30s;
+    transition: 15s;
     font-size: 500px;
-    color: yellow;
+    color: red;
     opacity: 0%;
 
   }
@@ -52,4 +52,9 @@ html {
 
     opacity: 0%;
 
+  }
+
+  img{
+
+    background-attachment: fixed;
   }
