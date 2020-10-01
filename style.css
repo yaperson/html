@@ -1,0 +1,55 @@
+html {
+    background-color: rgb(150, 150, 150);
+    font-size: 20px;
+      }
+  
+  ul {
+    background: red;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  ul:hover {
+    transition: 0.5s;
+    background: rgb(196, 162, 10);
+    padding: 100px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 0px blue;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
+
+  li:hover {
+    transition: 2s;
+    margin-left: 50px;
+    opacity: 2%;
+  }
+
+  h1 {
+
+    color: white;
+    margin-left: 400px;
+
+
+  }
+
+  h1:hover{
+    transition: 30s;
+    font-size: 500px;
+    color: yellow;
+    opacity: 0%;
+
+  }
+
+  p {
+    font-size: 50px;
+    color: white;
+  }
+
+ p:hover{
+    transition: 2s;
+
+    opacity: 0%;
+
+  }
