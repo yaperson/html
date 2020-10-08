@@ -1,8 +1,14 @@
 html {
     background-color: rgb(150, 150, 150);
     font-size: 20px;
-      }
+  }
   
+  body {
+
+    background-image: url("image.jpg");
+
+  }
+
   ul {
     background: red;
     padding: 10px;
@@ -29,8 +35,10 @@ html {
   h1 {
 
     color: white;
-    margin-left: 400px;
-
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 5px solid cyan ;
+    background-color: black;
 
   }
 
@@ -54,7 +62,3 @@ html {
 
   }
 
-  img{
-
-    background-attachment: fixed;
-  }

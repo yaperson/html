@@ -1,0 +1,51 @@
+html {
+    background-color: rgb(150, 150, 150);
+    font-size: 20px;
+  }
+  
+  body {
+
+    /* padding: 10%; */
+
+  }
+
+  .time {
+    vertical-align: top;
+    position: relative;
+    top: -13px;
+    font-weight: lighter;
+    text-align: right;
+}
+
+  h1 {
+
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 5px solid cyan ;
+    background-color: black;
+
+  }
+
+  table {
+    border: 1px solid #333;
+    /* margin-left: 25%;
+    margin-right: 25%; */
+}
+  td
+  {
+    border: 1px solid #333;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 25px;
+    
+}
+th {
+  width: 16%;
+}
+
+.min55 {
+
+height: 10%;
+
+}
