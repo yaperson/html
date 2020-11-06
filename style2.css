@@ -25,16 +25,21 @@ html {
     color: white;
     margin-left: 25%;
     margin-right: 25%;
+    animation:zoom  3s ease-in-out infinite alternate;
   }
+  
   h1:hover {
     font-family: 'Righteous', cursive;
+    animation:zoom  3s ease-in-out infinite alternate;
+  }
+    /*
     color: rgb(0, 123, 194);
     transition: 0.3s;
     font-size: 250%;
     margin-left: 25%;
     margin-right: 25%;
   }
-
+*/
   table {
     border: 8px solid rgb(33, 75, 92);
     border-radius: 0.5%;
@@ -96,3 +101,16 @@ height: 10%;
   }
 }
 
+@keyframes zoom {
+ 0% {
+  font-size: 200%;
+  color: rgb(189, 0, 0);
+  transform: rotatey(0deg);
+ }
+
+ 100% {
+  font-size: 200%;
+  color: rgb(190, 171, 0);
+  transform: rotatey(180deg);
+ }
+}
