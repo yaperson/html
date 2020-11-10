@@ -32,6 +32,19 @@ html {
     font-family: 'Righteous', cursive;
     animation:zoom  3s ease-in-out infinite alternate;
   }
+
+  h3 {
+    font-family: 'Righteous', cursive;
+    color: white;
+    margin-left: 0%;
+    margin-right: 25%;
+    animation:zoom  3s ease-in-out infinite alternate;
+  }
+  
+  h3:hover {
+    font-family: 'Righteous', cursive;
+    animation:zoom  3s ease-in-out infinite alternate;
+  }
     /*
     color: rgb(0, 123, 194);
     transition: 0.3s;
