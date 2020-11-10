@@ -222,6 +222,20 @@ Fin: 17:00</td>
     </table>
 
     <div class="bg bg2"></div>
-    
+    <!------------------------------>
+    <script>
+
+        var audio=document.createElement('audio');
+         var first=true;
+              window.addEventListener('mousedown',onmousedown);
+         
+            function onmousedown(){
+               if(!first) return;
+               first=true;
+               audio.src="smb_saut.mp3";
+               audio.play();
+            }
+        
+        </script>
   </body>
 </html>
